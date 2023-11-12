@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package config;
+
+option go_package = "github.com/mrtc0-sandbox/protobuf-text-config/pkg/config";
+
+message ApplicationConfig {
+  bool verbose = 1;
+  repeated Provider provider = 2;
+}
+
+message Provider {
+  string name = 1;
+  string url = 2;
+}

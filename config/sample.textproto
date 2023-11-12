@@ -1,0 +1,11 @@
+verbose: true
+
+provider {
+  name: "example.com provider"
+  url: "https://example.com"
+}
+
+provider {
+  name: "github.com provider"
+  url: "https://github.com"
+}
